@@ -67,7 +67,6 @@ permalink: /
     <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Servicekraft</span>
     <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Küchenhilfe</span>
     <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Gastronomiehilfe</span>
-    <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Reinigungskraft</span>
   </div>
 </div>
 
@@ -75,8 +74,6 @@ permalink: /
   <h3 style="font-size: 1.1rem; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Sonstiges</h3>
   <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Zustellerin</span>
-    <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Botendienst</span>
-    <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Hausmeisterin</span>
     <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Mitarbeiterin im Markt</span>
   </div>
 </div>
@@ -228,7 +225,6 @@ permalink: /
     <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Service Staff</span>
     <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Kitchen Helper</span>
     <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Gastronomy Helper</span>
-    <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Cleaner</span>
   </div>
 </div>
 
@@ -236,8 +232,6 @@ permalink: /
   <h3 style="font-size: 1.1rem; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Other</h3>
   <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Delivery Person</span>
-    <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Messenger</span>
-    <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Caretaker</span>
     <span style="background: rgba(124,58,237,0.12); padding: 10px 18px; border-radius: 20px; font-size: 0.95rem;">Market Employee</span>
   </div>
 </div>

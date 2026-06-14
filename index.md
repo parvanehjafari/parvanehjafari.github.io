@@ -86,7 +86,7 @@ Erfahrung in administrativen und organisatorischen Aufgaben im Büroumfeld. Zuve
 ---
 
 <div style="text-align: center; padding: 40px 0;">
-  <a href="mailto:parvanehjafari@example.com" style="display: inline-block; padding: 14px 32px; background: #3a7a3a; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px;">Kontakt aufnehmen →</a>
+  <a href="https://de.linkedin.com/in/parvanehjafari" target="_blank" rel="noopener" style="display: inline-block; padding: 14px 32px; background: #3a7a3a; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px;">Kontakt aufnehmen →</a>
 </div>
 
 </div>
@@ -169,7 +169,7 @@ Experience in administrative and organizational office tasks. Reliable handling 
 ---
 
 <div style="text-align: center; padding: 40px 0;">
-  <a href="mailto:parvanehjafari@example.com" style="display: inline-block; padding: 14px 32px; background: #3a7a3a; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px;">Contact Me →</a>
+  <a href="https://de.linkedin.com/in/parvanehjafari" target="_blank" rel="noopener" style="display: inline-block; padding: 14px 32px; background: #3a7a3a; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px;">Contact Me →</a>
 </div>
 
 </div>

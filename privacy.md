@@ -33,7 +33,7 @@ Als EU-Bürger haben Sie das Recht, Ihre personenbezogenen Daten einzusehen, zu 
 
 ## 5. Kontakt
 
-E-Mail: [parvanehjafari@example.com](mailto:parvanehjafari@example.com)
+LinkedIn: [parvanehjafari](https://de.linkedin.com/in/parvanehjafari)
 
 </div>
 
@@ -66,6 +66,6 @@ As an EU resident, you have the right to access, correct, or delete your persona
 
 ## 5. Contact
 
-Email: [parvanehjafari@example.com](mailto:parvanehjafari@example.com)
+LinkedIn: [parvanehjafari](https://de.linkedin.com/in/parvanehjafari)
 
 </div>

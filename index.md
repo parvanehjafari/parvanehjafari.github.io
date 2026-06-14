@@ -18,6 +18,43 @@ Ich bin eine motivierte und zuverlässige Person, die eine Teilzeitstelle in Ber
 
 ---
 
+## Gesuchte Stellen
+
+Ich suche eine Teilzeitstelle in Berlin in folgenden Bereichen:
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0;">
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Verkäuferin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Regalauffüllerin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Verräumerin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Regalservicekraft</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Warenverräumer</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Mitarbeiter im Markt</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Aushilfe im Verkauf</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Kassiererin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Einzelhandelskauffrau</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Lagermitarbeiterin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Reinigungskraft</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Putzkraft</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Servicekraft</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Empfangsmitarbeiterin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Bürokraft</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Archivmitarbeiterin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Sortiermitarbeiterin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Kommissioniererin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Zustellerin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Küchenhilfe</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Gastronomiehilfe</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Hausmeisterin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Botendienst</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Warenhausmitarbeiterin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Supermarkthilfe</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Disponentin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Sortiererin</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Packmitarbeiterin</span>
+</div>
+
+---
+
 ## Berufserfahrung
 
 ### Reiseleitung
@@ -65,6 +102,39 @@ Erfahrung in administrativen und organisatorischen Aufgaben im Büroumfeld. Zuve
 ## About Me
 
 I am a motivated and reliable person looking for a mini job in Berlin, Germany. I hold a B1 German certificate, a valid driver's license, and have experience in tour leading and office work.
+
+---
+
+## Jobs I'm Looking For
+
+I am looking for a part-time job in Berlin in the following areas:
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0;">
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Shop Assistant</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Shelf Stacker</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Stock Clerk</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Retail Assistant</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Sales Assistant</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Market Employee</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Cashier</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Warehouse Worker</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Cleaner</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Service Staff</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Receptionist</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Office Assistant</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Archive Clerk</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Sorter</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Picker</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Delivery Person</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Kitchen Helper</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Gastronomy Helper</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Caretaker</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Messenger</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Department Store Worker</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Supermarket Assistant</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Dispatcher</span>
+  <span style="background: rgba(58,122,58,0.2); padding: 6px 14px; border-radius: 20px; font-size: 14px;">Packer</span>
+</div>
 
 ---
 

@@ -1,0 +1,53 @@
+# English translations
+lang_name: English
+nav_home: Home
+nav_about: About Me
+nav_experience: Experience
+nav_education: Education
+nav_contact: Contact
+nav_search: Search
+
+site_title: Parvaneh Jafari
+site_description: Looking for a mini job in Berlin, Germany - Weekdays only, 8:00 AM to 4:00 PM
+
+# Homepage
+hero_title: Parvaneh Jafari
+hero_subtitle: Looking for a mini job in Berlin, Germany
+hero_detail: Weekdays only, 8:00 AM to 4:00 PM
+
+section_about: About Me
+about_text: >
+  I am a motivated and reliable person looking for a mini job in Berlin, Germany.
+  I hold a B1 German certificate, a valid driver's license, and have experience
+  in tour leading and office work.
+
+section_experience: Work Experience
+exp_tour_title: Tour Leading
+exp_tour_desc: Experience in professional tour leading and group management.
+exp_office_title: Office Work
+exp_office_desc: Experience in administrative and organizational office tasks.
+
+section_education: Education & Qualifications
+edu_b1_title: German B1 Certificate
+edu_b1_desc: Proven German language skills at B1 level.
+edu_license_title: Driver's License
+edu_license_desc: Holder of a valid driver's license.
+
+section_skills: Skills
+skills_title: My Strengths
+skill_german: German (B1)
+skill_office: MS Office, Organization
+skill_communication: Communication
+skill_reliable: Reliable and punctual
+
+section_contact: Contact
+contact_text: I look forward to hearing from you!
+contact_email: Send Email
+
+# Footer
+footer_rights: All rights reserved.
+footer_privacy: Privacy Policy
+footer_github: GitHub
+
+# Navigation labels in nav
+nav_label_main: Main Navigation

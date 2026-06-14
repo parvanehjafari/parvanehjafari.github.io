@@ -1,0 +1,87 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "person",
+      "description": "A person who works in the field of computer vision.",
+      "id": "parvaneh"
+    },
+    {
+      "type": "org",
+      "description": "An organization where parvaneh works.",
+      "id": "tiziran"
+    },
+    {
+      "type": "tool",
+      "description": "A software library used for computer vision applications.",
+      "id": "opencv"
+    },
+    {
+      "type": "tool",
+      "description": "A parallel computing platform and application programming interface developed by NVIDIA.",
+      "id": "cuda"
+    },
+    {
+      "type": "org|tool",
+      "description": "An organization or tool used for AI inference.",
+      "id": "ollama"
+    },
+    {
+      "type": "concept|project",
+      "description": "AI models developed at Ollama used for inference.",
+      "id": "qwen_models"
+    }
+  ],
+  "edges": [
+    {
+      "type": "works_at",
+      "description": "parvaneh works at Tiziran.",
+      "source": "parvaneh",
+      "target": "tiziran"
+    },
+    {
+      "type": "uses",
+      "description": "parvaneh uses OpenCV for computer vision.",
+      "source": "parvaneh",
+      "target": "opencv"
+    },
+    {
+      "type": "uses",
+      "description": "parvaneh uses CUDA for computer vision.",
+      "source": "parvaneh",
+      "target": "cuda"
+    },
+    {
+      "type": "uses",
+      "description": "parvaneh uses Ollama for AI inference.",
+      "source": "parvaneh",
+      "target": "ollama"
+    },
+    {
+      "type": "uses",
+      "description": "parvaneh uses Qwen models for AI inference.",
+      "source": "parvaneh",
+      "target": "qwen_models"
+    }
+  ],
+  "metadata": {
+    "entity_types": {
+      "parvaneh": "person",
+      "tiziran": "org",
+      "opencv": "tool",
+      "cuda": "tool",
+      "ollama": "org|tool",
+      "qwen_models": "concept|project"
+    },
+    "descriptions": {
+      "parvaneh": "A person who works in the field of computer vision.",
+      "tiziran": "An organization where parvaneh works.",
+      "opencv": "A software library used for computer vision applications.",
+      "cuda": "A parallel computing platform and application programming interface developed by NVIDIA.",
+      "ollama": "An organization or tool used for AI inference.",
+      "qwen_models": "AI models developed at Ollama used for inference."
+    }
+  }
+}

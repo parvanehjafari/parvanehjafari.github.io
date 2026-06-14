@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Knowledge Graph</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d1117; color: #c9d1d9; font-family: -apple-system, system-ui, sans-serif; }
+  #graph { width: 100vw; height: 100vh; }
+  .info { position: fixed; top: 16px; left: 16px; background: rgba(22,27,34,0.9);
+          border: 1px solid #30363d; border-radius: 12px; padding: 16px; max-width: 320px;
+          backdrop-filter: blur(8px); z-index: 10; }
+  .info h2 { font-size: 14px; color: #58a6ff; margin-bottom: 8px; }
+  .info p { font-size: 12px; line-height: 1.5; }
+  .legend { position: fixed; bottom: 16px; left: 16px; display: flex; gap: 12px; }
+  .legend span { font-size: 11px; display: flex; align-items: center; gap: 4px; }
+  .legend .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+</style>
+</head>
+<body>
+<div class="info">
+  <h2>AI Knowledge Graph</h2>
+  <p>Nodes: 6 | Edges: 5</p>
+  <p>Drag to pan, scroll to zoom, click node for details.</p>
+</div>
+<div class="legend">
+  <span><span class="dot" style="background:#58a6ff"></span> Person</span>
+  <span><span class="dot" style="background:#3fb950"></span> Org</span>
+  <span><span class="dot" style="background:#d2a8ff"></span> Tool</span>
+  <span><span class="dot" style="background:#f0883e"></span> Concept</span>
+  <span><span class="dot" style="background:#f778ba"></span> Project</span>
+</div>
+<canvas id="graph"></canvas>
+<script>
+const DATA = {"directed": true, "multigraph": false, "graph": {}, "nodes": [{"type": "person", "description": "A person who works in the field of computer vision.", "id": "parvaneh"}, {"type": "org", "description": "An organization where parvaneh works.", "id": "tiziran"}, {"type": "tool", "description": "A software library used for computer vision applications.", "id": "opencv"}, {"type": "tool", "description": "A parallel computing platform and application programming interface developed by NVIDIA.", "id": "cuda"}, {"type": "org|tool", "description": "An organization or tool used for AI inference.", "id": "ollama"}, {"type": "concept|project", "description": "AI models developed at Ollama used for inference.", "id": "qwen_models"}], "edges": [{"type": "works_at", "description": "parvaneh works at Tiziran.", "source": "parvaneh", "target": "tiziran"}, {"type": "uses", "description": "parvaneh uses OpenCV for computer vision.", "source": "parvaneh", "target": "opencv"}, {"type": "uses", "description": "parvaneh uses CUDA for computer vision.", "source": "parvaneh", "target": "cuda"}, {"type": "uses", "description": "parvaneh uses Ollama for AI inference.", "source": "parvaneh", "target": "ollama"}, {"type": "uses", "description": "parvaneh uses Qwen models for AI inference.", "source": "parvaneh", "target": "qwen_models"}]};
+
+const COLORS = {{ person:"#58a6ff", org:"#3fb950", tool:"#d2a8ff", concept:"#f0883e",
+                  project:"#f778ba", location:"#ffa657", default:"#8b949e" }};
+const canvas = document.getElementById("graph");
+const ctx = canvas.getContext("2d");
+let W, H, panX=0, panY=0, zoom=1, drag=null, hovered=null, selected=null;
+
+function resize() {{ W=canvas.width=window.innerWidth; H=canvas.height=window.innerHeight; }}
+window.addEventListener("resize", resize); resize();
+
+const nodes = DATA.nodes.map((n,i) => {{
+  const angle = (2*Math.PI*i)/DATA.nodes.length;
+  const r = 200 + Math.random()*150;
+  return {{ ...n, x: Math.cos(angle)*r, y: Math.sin(angle)*r, vx:0, vy:0,
+            color: COLORS[n.type]||COLORS.default }};
+}});
+
+const nodeMap = {{}};
+nodes.forEach(n => nodeMap[n.id] = n);
+
+const links = DATA.links.map(l => ({{ source: nodeMap[l.source], target: nodeMap[l.target], type: l.type }}))
+                       .filter(l => l.source && l.target);
+
+function simulate() {{
+  for (let i=0; i<50; i++) {{
+    nodes.forEach(n => {{ n.vx=0; n.vy=0; }});
+    // repulsion
+    for (let a=0; a<nodes.length; a++) {{
+      for (let b=a+1; b<nodes.length; b++) {{
+        let dx=nodes[b].x-nodes[a].x, dy=nodes[b].y-nodes[a].y;
+        let d=Math.sqrt(dx*dx+dy*dy)||1, f=3000/(d*d);
+        nodes[a].vx-=dx/d*f; nodes[a].vy-=dy/d*f;
+        nodes[b].vx+=dx/d*f; nodes[b].vy+=dy/d*f;
+      }}
+    }}
+    // attraction
+    links.forEach(l => {{
+      let dx=l.target.x-l.source.x, dy=l.target.y-l.source.y;
+      let d=Math.sqrt(dx*dx+dy*dy)||1, f=(d-100)*0.01;
+      l.source.vx+=dx/d*f; l.source.vy+=dy/d*f;
+      l.target.vx-=dx/d*f; l.target.vy-=dy/d*f;
+    }});
+    // center gravity
+    nodes.forEach(n => {{ n.vx-=n.x*0.001; n.vy-=n.y*0.001; }});
+    // apply
+    nodes.forEach(n => {{ n.x+=n.vx*0.3; n.y+=n.vy*0.3; }});
+  }}
+}}
+simulate();
+
+function draw() {{
+  ctx.clearRect(0,0,W,H);
+  ctx.save(); ctx.translate(W/2+panX, H/2+panY); ctx.scale(zoom, zoom);
+  // edges
+  ctx.lineWidth = 1; ctx.globalAlpha = 0.4;
+  links.forEach(l => {{
+    ctx.beginPath(); ctx.moveTo(l.source.x, l.source.y); ctx.lineTo(l.target.x, l.target.y);
+    ctx.strokeStyle = l.type==="related_to" ? "#30363d" : "#58a6ff"; ctx.stroke();
+  }});
+  ctx.globalAlpha = 1;
+  // nodes
+  nodes.forEach(n => {{
+    const r = n===hovered||n===selected ? 8 : 6;
+    ctx.beginPath(); ctx.arc(n.x, n.y, r, 0, 2*Math.PI);
+    ctx.fillStyle = n.color; ctx.fill();
+    if (n===selected) {{ ctx.strokeStyle="#fff"; ctx.lineWidth=2; ctx.stroke(); }}
+    ctx.fillStyle = "#c9d1d9"; ctx.font = "10px system-ui"; ctx.textAlign="center";
+    ctx.fillText(n.id.replace(/_/g," "), n.x, n.y - r - 4);
+  }});
+  ctx.restore();
+  requestAnimationFrame(draw);
+}}
+draw();
+
+canvas.addEventListener("mousedown", e => {{ drag = {{x:e.clientX-panX, y:e.clientY-panY}}; }});
+canvas.addEventListener("mousemove", e => {{
+  if (drag) {{ panX=e.clientX-drag.x; panY=e.clientY-drag.y; return; }}
+  const mx=(e.clientX-W/2-panX)/zoom, my=(e.clientY-H/2-panY)/zoom;
+  hovered = nodes.find(n => Math.hypot(n.x-mx, n.y-my) < 10) || null;
+  canvas.style.cursor = hovered ? "pointer" : "default";
+}});
+canvas.addEventListener("mouseup", () => {{ drag=null; }});
+canvas.addEventListener("click", e => {{
+  if (!hovered) {{ selected=null; return; }}
+  selected = hovered;
+  const info = document.querySelector(".info");
+  info.innerHTML = `<h2>${{selected.id.replace(/_/g," ")}}</h2>
+    <p><b>Type:</b> ${{selected.type}}</p>
+    <p><b>Description:</b> ${{selected.description||"N/A"}}</p>
+    <p><b>Degree:</b> ${{links.filter(l=>l.source===selected||l.target===selected).length}}</p>`;
+}});
+canvas.addEventListener("wheel", e => {{ e.preventDefault(); zoom *= e.deltaY>0?0.9:1.1; zoom=Math.max(0.1,Math.min(5,zoom)); }});
+</script>
+</body>
+</html>

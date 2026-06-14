@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.default_lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <link rel="icon" type="image/png" href="{{ '/assets/parvaneh.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/parvaneh.png' | relative_url }}">
+  
+  <link rel="stylesheet" href="{{ '/assets/css/parvaneh-macos27.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/parvaneh-liquid-glass.css' | relative_url }}">
+  
+  {% if page.extra_css %}
+  <link rel="stylesheet" href="{{ '/assets/css/' | append: page.extra_css | relative_url }}">
+  {% endif %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <style>
+    .lang-switcher {
+      display: flex;
+      gap: 0;
+      margin-left: auto;
+    }
+    .lang-btn {
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border-radius: 0;
+    }
+    .lang-btn:first-child { border-radius: 8px 0 0 8px; }
+    .lang-btn:last-child { border-radius: 0 8px 8px 0; }
+    .lang-btn.active {
+      background: rgba(58, 122, 58, 0.9);
+      color: white;
+    }
+    .lang-btn:not(.active) {
+      background: rgba(255,255,255,0.15);
+      color: rgba(255,255,255,0.8);
+    }
+    .lang-btn:not(.active):hover {
+      background: rgba(255,255,255,0.25);
+    }
+    .i18n { display: none; }
+    .i18n[data-lang="de"] { display: block; }
+    .i18n[data-lang="en"] { display: none; }
+    html[data-lang="de"] .i18n[data-lang="de"] { display: block; }
+    html[data-lang="de"] .i18n[data-lang="en"] { display: none; }
+    html[data-lang="en"] .i18n[data-lang="de"] { display: none; }
+    html[data-lang="en"] .i18n[data-lang="en"] { display: block; }
+    .i18n-inline[data-lang="de"] { display: inline; }
+    .i18n-inline[data-lang="en"] { display: none; }
+    html[data-lang="en"] .i18n-inline[data-lang="de"] { display: none; }
+    html[data-lang="en"] .i18n-inline[data-lang="en"] { display: inline; }
+  </style>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7548808026663917" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="nav-wrapper">
+    <nav class="site-nav liquid-glass" id="site-nav">
+      <div class="nav-header">
+        <a class="nav-brand liquid-glass-item" href="{{ '/' | relative_url }}">
+          <span class="i18n-inline" data-lang="de">Startseite</span>
+          <span class="i18n-inline" data-lang="en">Home</span>
+        </a>
+        <button type="button" class="nav-menu-btn liquid-glass-item" id="nav-menu-btn" aria-expanded="false" aria-controls="nav-list">
+          <span class="i18n-inline" data-lang="de">Menü</span>
+          <span class="i18n-inline" data-lang="en">Menu</span>
+        </button>
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="de" onclick="setLang('de')">DE</button>
+          <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+        </div>
+      </div>
+      <ul class="nav-list" id="nav-list" aria-label="Site navigation">
+        {% if site.data.nav and site.data.nav.size > 0 %}
+          {% include nav-items.html items=site.data.nav %}
+        {% endif %}
+        <li><a href="{{ '/search/' | relative_url }}" class="liquid-glass-item" title="Search">&#128269;</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main class="site-main liquid-glass">
+    {{ content }}
+  </main>
+
+  <div class="toolbar liquid-glass bottom-toolbar" role="navigation" aria-label="Quick actions">
+    <button type="button" class="liquid-glass-item" onclick="history.back()" title="Back" aria-label="Back">&#8592;</button>
+    <button type="button" class="liquid-glass-item" onclick="history.forward()" title="Forward" aria-label="Forward">&#8594;</button>
+    <a href="{{ '/' | relative_url }}" class="liquid-glass-item" title="Home">
+      <span class="i18n-inline" data-lang="de">Start</span>
+      <span class="i18n-inline" data-lang="en">Home</span>
+    </a>
+    <a href="{{ '/search/' | relative_url }}" class="liquid-glass-item" title="Search">&#128269;</a>
+  </div>
+
+<footer class="site-footer liquid-glass">
+  <p>&copy; {{ 'now' | date: '%Y' }} {{ site.author }}.
+    <span class="i18n-inline" data-lang="de">Alle Rechte vorbehalten.</span>
+    <span class="i18n-inline" data-lang="en">All rights reserved.</span>
+  </p>
+  <p>
+    <a class="liquid-glass-item" href="{{ '/privacy/' | relative_url }}">
+      <span class="i18n-inline" data-lang="de">Datenschutz</span>
+      <span class="i18n-inline" data-lang="en">Privacy Policy</span>
+    </a>
+  </p>
+</footer>
+
+<div id="gdpr-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;background:rgba(28,28,30,0.95);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);color:#f5f5f7;padding:16px 24px;z-index:9999;font-size:14px;line-height:1.6;border-top:1px solid rgba(255,255,255,0.1);">
+  <div style="max-width:900px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:12px;">
+    <span style="flex:1;min-width:200px;" class="i18n" data-lang="de">Diese Website verwendet Cookies für Analyse und personalisierte Werbung. Durch die Nutzung dieser Website stimmen Sie der Verwendung von Cookies zu.</span>
+    <span style="flex:1;min-width:200px;" class="i18n" data-lang="en">This website uses cookies for analytics and personalized ads. By continuing to use this site, you consent to our use of cookies.</span>
+    <a href="{{ '/privacy/' | relative_url }}" style="color:#5ac8fa;text-decoration:none;white-space:nowrap;">
+      <span class="i18n-inline" data-lang="de">Datenschutz</span>
+      <span class="i18n-inline" data-lang="en">Privacy Policy</span>
+    </a>
+    <button onclick="acceptGDPR()" style="background:#3a7a3a;color:white;border:none;padding:8px 20px;border-radius:8px;cursor:pointer;font-size:14px;white-space:nowrap;">
+      <span class="i18n-inline" data-lang="de">Akzeptieren</span>
+      <span class="i18n-inline" data-lang="en">Accept</span>
+    </button>
+  </div>
+</div>
+
+{% include glass-effects.html %}
+<script id="nav-data" type="application/json">{{ site.data.nav | jsonify }}</script>
+
+<script src="{{ '/assets/js/parvaneh-site-nav.js' | relative_url }}" defer></script>
+<script>
+function setLang(lang) {
+  document.documentElement.setAttribute('data-lang', lang);
+  localStorage.setItem('site_lang', lang);
+  document.querySelectorAll('.lang-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+  });
+}
+function acceptGDPR() {
+  localStorage.setItem('gdpr_consent', 'accepted');
+  document.getElementById('gdpr-banner').style.display = 'none';
+}
+(function() {
+  var saved = localStorage.getItem('site_lang') || '{{ site.default_lang }}';
+  setLang(saved);
+  if (!localStorage.getItem('gdpr_consent')) {
+    document.getElementById('gdpr-banner').style.display = 'block';
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+# Site settings
+title: Parvaneh Jafari
+author: Parvaneh Jafari
+url: https://parvanehjafari.github.io
+baseurl: ""
+description: Looking for a mini job in Berlin, Germany - Weekdays only, 8:00 to 16:00
+
+# Default language (de = German)
+default_lang: de
+
+# Jekyll settings
+markdown: kramdown
+permalink: pretty
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: "contents"
+    values:
+      layout: parvaneh_default
+
+# Plugins
+plugins:
+  - jekyll-feed
+
+include:
+  - contents
+
+# Exclude
+exclude:
+  - README.md
+  - run.sh
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .git/
+  - .gitignore
+  - CNAME
+  - Ads.txt
+  - scripts/

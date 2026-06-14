@@ -1,0 +1,53 @@
+# German translations
+lang_name: Deutsch
+nav_home: Startseite
+nav_about: Über mich
+nav_experience: Erfahrung
+nav_education: Bildung
+nav_contact: Kontakt
+nav_search: Suche
+
+site_title: Parvaneh Jafari
+site_description: Suche eine Teilzeitstelle in Berlin, Deutschland - Montag bis Freitag, 8:00 bis 16:00
+
+# Homepage
+hero_title: Parvaneh Jafari
+hero_subtitle: Suche eine Teilzeitstelle in Berlin, Deutschland
+hero_detail: Montag bis Freitag, 8:00 bis 16:00 Uhr
+
+section_about: Über mich
+about_text: >
+  Ich bin eine motivierte und zuverlässige Person, die eine Teilzeitstelle
+  in Berlin sucht. Ich verfüge über fundierte Deutschkenntnisse (B1-Zertifikat),
+  einen Führerschein und Erfahrung in den Bereichen Reiseleitung und Büroarbeit.
+
+section_experience: Berufserfahrung
+exp_tour_title: Reiseleitung
+exp_tour_desc: Erfahrung in der professionellen Reiseleitung und Betreuung von Gruppen.
+exp_office_title: Büroarbeit
+exp_office_desc: Erfahrung in administrativen und organisatorischen Aufgaben im Büroumfeld.
+
+section_education: Bildung und Qualifikationen
+edu_b1_title: Deutsch B1 Zertifikat
+edu_b1_desc: Nachgewiesene Deutschkenntnisse auf B1-Niveau.
+edu_license_title: Führerschein
+edu_license_desc: Inhaber eines gültigen Führerscheins.
+
+section_skills: Fähigkeiten
+skills_title: Meine Stärken
+skill_german: Deutsch (B1)
+skill_office: MS Office, Organisation
+skill_communication: Kommunikation
+skill_reliable: Zuverlässig und pünktlich
+
+section_contact: Kontakt
+contact_text: Ich freue mich auf Ihre Nachricht!
+contact_email: E-Mail senden
+
+# Footer
+footer_rights: Alle Rechte vorbehalten.
+footer_privacy: Datenschutz
+footer_github: GitHub
+
+# Navigation labels in nav
+nav_label_main: Hauptnavigation

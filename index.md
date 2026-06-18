@@ -8,17 +8,23 @@ permalink: /
 
 <div style="max-width: 800px; margin: 0 auto; padding: 2rem 0;">
 
-# Parvaneh Jafari
+<h1 style="font-size: 2.5rem; font-weight: 700; color: #7c3aed; margin: 0 0 1rem 0;">Parvaneh Jafari</h1>
 
-<div style="margin: 3rem 0 2rem 0; padding: 2rem; border-radius: 16px; background: rgba(124,58,237,0.08); border-left: 4px solid #7c3aed;">
-  <p style="font-size: 1.4rem; font-weight: 700; margin: 0 0 0.5rem 0; color: #7c3aed;">Suche Teilzeitstelle in Berlin</p>
-  <p style="font-size: 1rem; margin: 0; opacity: 0.7;">Montag bis Freitag · 8:00 bis 16:00 Uhr</p>
-  <p style="font-size: 0.9rem; margin: 0.5rem 0 0 0; opacity: 0.6;">Teilzeit · Minijob · Aushilfe · Saisonarbeit · Ferienjob</p>
+<div style="display: flex; gap: 2rem; align-items: center; margin: 3rem 0 2rem 0; padding: 2rem; border-radius: 16px; background: rgba(124,58,237,0.08); border-left: 4px solid #7c3aed;">
+  <div style="flex: 1;">
+    <p style="font-size: 1.4rem; font-weight: 700; margin: 0 0 0.5rem 0; color: #7c3aed;">Suche Teilzeitstelle in Berlin</p>
+    <p style="font-size: 1rem; margin: 0; opacity: 0.7;">Montag bis Freitag · 8:00 bis 16:00 Uhr</p>
+    <p style="font-size: 0.9rem; margin: 0.5rem 0 0 0; opacity: 0.6;">Teilzeit · Minijob · Aushilfe · Saisonarbeit</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="{{ '/assets/qr-code.png' | relative_url }}" alt="QR Code" style="width: 100px; height: 100px;">
+    <p style="font-size: 0.75rem; opacity: 0.6; margin-top: 0.25rem;">Scan für LinkedIn</p>
+  </div>
 </div>
 
 <br>
 
-## Über mich
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Über mich</h2>
 
 <div style="margin: 1rem 0 3rem 0; line-height: 1.8; font-size: 1.05rem;">
   Motivierte und zuverlässige Person mit fundierten Deutschkenntnissen (B1-Zertifikat), gültigem Führerschein sowie Erfahrung in den Bereichen Reiseleitung und Büroarbeit. Suche eine Teilzeitstelle in Berlin, um meine Fähigkeiten einzubringen und neue Erfahrungen zu sammeln.
@@ -26,7 +32,7 @@ permalink: /
 
 <br>
 
-## Gesuchte Tätigkeiten
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Gesuchte Tätigkeiten</h2>
 
 <div style="margin: 1.5rem 0 3rem 0;">
 
@@ -185,14 +191,13 @@ permalink: /
     <span style="background: rgba(124,58,237,0.08); padding: 6px 12px; border-radius: 12px; font-size: 0.85rem;">Teilzeit ohne Schichtdienst Berlin</span>
     <span style="background: rgba(124,58,237,0.08); padding: 6px 12px; border-radius: 12px; font-size: 0.85rem;">Aushilfe Berlin</span>
     <span style="background: rgba(124,58,237,0.08); padding: 6px 12px; border-radius: 12px; font-size: 0.85rem;">Saisonjob Berlin</span>
-    <span style="background: rgba(124,58,237,0.08); padding: 6px 12px; border-radius: 12px; font-size: 0.85rem;">Ferienjob Berlin</span>
     <span style="background: rgba(124,58,237,0.08); padding: 6px 12px; border-radius: 12px; font-size: 0.85rem;">Werkstudent Berlin</span>
   </div>
 </div>
 
 <br>
 
-## Berufserfahrung
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Berufserfahrung</h2>
 
 <div style="margin: 1.5rem 0 3rem 0;">
   <div style="padding: 1.5rem; border-radius: 12px; background: rgba(255,255,255,0.05); margin-bottom: 1.5rem;">
@@ -207,7 +212,7 @@ permalink: /
 
 <br>
 
-## Qualifikationen
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Qualifikationen</h2>
 
 <div style="margin: 1.5rem 0 3rem 0;">
   <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
@@ -231,7 +236,7 @@ permalink: /
 
 <br>
 
-## Stärken
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Stärken</h2>
 
 <div style="margin: 1.5rem 0 3rem 0;">
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
@@ -269,17 +274,23 @@ permalink: /
 
 <div style="max-width: 800px; margin: 0 auto; padding: 2rem 0;">
 
-# Parvaneh Jafari
+<h1 style="font-size: 2.5rem; font-weight: 700; color: #7c3aed; margin: 0 0 1rem 0;">Parvaneh Jafari</h1>
 
-<div style="margin: 3rem 0 2rem 0; padding: 2rem; border-radius: 16px; background: rgba(124,58,237,0.08); border-left: 4px solid #7c3aed;">
-  <p style="font-size: 1.4rem; font-weight: 700; margin: 0 0 0.5rem 0; color: #7c3aed;">Looking for a part-time job in Berlin</p>
-  <p style="font-size: 1rem; margin: 0; opacity: 0.7;">Monday to Friday · 8:00 AM to 4:00 PM</p>
-  <p style="font-size: 0.9rem; margin: 0.5rem 0 0 0; opacity: 0.6;">Part-time · Mini-job · Temp work · Seasonal · Holiday job</p>
+<div style="display: flex; gap: 2rem; align-items: center; margin: 3rem 0 2rem 0; padding: 2rem; border-radius: 16px; background: rgba(124,58,237,0.08); border-left: 4px solid #7c3aed;">
+  <div style="flex: 1;">
+    <p style="font-size: 1.4rem; font-weight: 700; margin: 0 0 0.5rem 0; color: #7c3aed;">Looking for a part-time job in Berlin</p>
+    <p style="font-size: 1rem; margin: 0; opacity: 0.7;">Monday to Friday · 8:00 AM to 4:00 PM</p>
+    <p style="font-size: 0.9rem; margin: 0.5rem 0 0 0; opacity: 0.6;">Part-time · Mini-job · Temp work · Seasonal</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="{{ '/assets/qr-code.png' | relative_url }}" alt="QR Code" style="width: 100px; height: 100px;">
+    <p style="font-size: 0.75rem; opacity: 0.6; margin-top: 0.25rem;">Scan for LinkedIn</p>
+  </div>
 </div>
 
 <br>
 
-## About Me
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">About Me</h2>
 
 <div style="margin: 1rem 0 3rem 0; line-height: 1.8; font-size: 1.05rem;">
   Motivated and reliable person with a German B1 certificate, valid driver's license, and experience in tour leading and office work. Looking for a part-time job in Berlin to contribute my skills and gain new experience.
@@ -287,7 +298,7 @@ permalink: /
 
 <br>
 
-## Jobs I'm Looking For
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Jobs I'm Looking For</h2>
 
 <div style="margin: 1.5rem 0 3rem 0;">
 
@@ -422,7 +433,7 @@ permalink: /
 
 <br>
 
-## Search Terms
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Search Terms</h2>
 
 <div style="margin: 1.5rem 0 3rem 0;">
   <div style="display: flex; flex-wrap: wrap; gap: 8px;">
@@ -436,14 +447,13 @@ permalink: /
     <span style="background: rgba(124,58,237,0.08); padding: 6px 12px; border-radius: 12px; font-size: 0.85rem;">No shift work Berlin</span>
     <span style="background: rgba(124,58,237,0.08); padding: 6px 12px; border-radius: 12px; font-size: 0.85rem;">Temp work Berlin</span>
     <span style="background: rgba(124,58,237,0.08); padding: 6px 12px; border-radius: 12px; font-size: 0.85rem;">Seasonal job Berlin</span>
-    <span style="background: rgba(124,58,237,0.08); padding: 6px 12px; border-radius: 12px; font-size: 0.85rem;">Holiday job Berlin</span>
     <span style="background: rgba(124,58,237,0.08); padding: 6px 12px; border-radius: 12px; font-size: 0.85rem;">Working student Berlin</span>
   </div>
 </div>
 
 <br>
 
-## Experience
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Experience</h2>
 
 <div style="margin: 1.5rem 0 3rem 0;">
   <div style="padding: 1.5rem; border-radius: 12px; background: rgba(255,255,255,0.05); margin-bottom: 1.5rem;">
@@ -458,7 +468,7 @@ permalink: /
 
 <br>
 
-## Qualifications
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Qualifications</h2>
 
 <div style="margin: 1.5rem 0 3rem 0;">
   <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
@@ -482,7 +492,7 @@ permalink: /
 
 <br>
 
-## Strengths
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Strengths</h2>
 
 <div style="margin: 1.5rem 0 3rem 0;">
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">

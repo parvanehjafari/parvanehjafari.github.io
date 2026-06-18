@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lebenslauf - Parvaneh Jafari</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1a0533; line-height: 1.5; }
+    .container { max-width: 800px; margin: 0 auto; padding: 40px; }
+    .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 3px solid #7c3aed; }
+    .header-left h1 { font-size: 28px; color: #7c3aed; margin-bottom: 5px; }
+    .header-left .subtitle { font-size: 16px; color: #4a2c6e; }
+    .header-right { text-align: right; }
+    .header-right img { width: 80px; height: 80px; margin-bottom: 10px; }
+    .contact-info { font-size: 12px; color: #666; }
+    .contact-info p { margin: 3px 0; }
+    .section { margin-bottom: 25px; }
+    .section-title { font-size: 16px; font-weight: 700; color: #7c3aed; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; padding-bottom: 5px; border-bottom: 2px solid #e0d4f5; }
+    .section-content { font-size: 13px; }
+    .job-title { font-weight: 600; color: #1a0533; margin-bottom: 3px; }
+    .job-company { color: #4a2c6e; font-style: italic; margin-bottom: 5px; }
+    .job-description { margin-left: 15px; }
+    .job-description li { margin-bottom: 4px; }
+    .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .skill-item { background: #f3e8ff; padding: 6px 10px; border-radius: 4px; font-size: 12px; }
+    .languages { display: flex; gap: 15px; }
+    .language-item { text-align: center; }
+    .language-level { font-size: 11px; color: #666; }
+    .qr-section { text-align: center; margin-top: 30px; padding-top: 20px; border-top: 2px solid #e0d4f5; }
+    .qr-section img { width: 100px; height: 100px; }
+    .qr-section p { font-size: 11px; color: #666; margin-top: 5px; }
+    .footer { text-align: center; font-size: 10px; color: #999; margin-top: 20px; }
+    .job-type-tag { display: inline-block; background: #7c3aed; color: white; padding: 3px 8px; border-radius: 3px; font-size: 10px; margin-bottom: 10px; }
+    @media print {
+      body { font-size: 12px; }
+      .container { padding: 20px; }
+      .qr-section img { width: 80px; height: 80px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-left">
+        <h1>Parvaneh Jafari</h1>
+        <div class="subtitle" id="job-title"></div>
+        <div style="margin-top: 10px; font-size: 12px; color: #666;">
+          <p>📍 Berlin, Deutschland</p>
+          <p>🕐 Montag - Freitag, 8:00 - 16:00 Uhr</p>
+          <p>🚗 Führerschein Klasse B</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <img src="../assets/qr-code.png" alt="QR Code">
+        <div class="contact-info">
+          <p><a href="https://de.linkedin.com/in/parvanehjafari" style="color: #7c3aed;">LinkedIn Profil</a></p>
+          <p><a href="https://parvanehjafari.github.io" style="color: #7c3aed;">Website</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Persönliche Angaben</div>
+      <div class="section-content">
+        <p>Motivierte und zuverlässige Mitarbeiterin mit Deutschkenntnissen (B1), Führerschein Klasse B und Erfahrung in Reiseleitung sowie Büroarbeit. Zuverlässig, pünktlich und serviceorientiert.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Gesuchte Position</div>
+      <div class="section-content">
+        <p class="job-type-tag" id="job-tag"></p>
+        <p style="margin-top: 8px;">Teilzeitstelle / Minijob / Aushilfe</p>
+        <p>Verfügbar: Montag bis Freitag, 8:00 bis 16:00 Uhr</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Berufserfahrung</div>
+      <div class="section-content">
+        <div style="margin-bottom: 15px;">
+          <p class="job-title">Reiseleitung</p>
+          <p class="job-description">
+            <li>Professionelle Betreuung von Reisegruppen</li>
+            <li>Tourenplanung und Durchführung</li>
+            <li>Fokus auf Kundenzufriedenheit</li>
+          </p>
+        </div>
+        <div>
+          <p class="job-title">Büroarbeit</p>
+          <p class="job-description">
+            <li>Administrative und organisatorische Aufgaben</li>
+            <li>Dokumentenbearbeitung und Terminplanung</li>
+            <li>Kundenkommunikation</li>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Qualifikationen</div>
+      <div class="section-content">
+        <div class="skills-grid">
+          <div class="skill-item">🎓 Deutsch B1 Zertifikat</div>
+          <div class="skill-item">🚗 Führerschein Klasse B</div>
+          <div class="skill-item">💻 MS Office</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Fähigkeiten</div>
+      <div class="section-content">
+        <div class="skills-grid">
+          <div class="skill-item">Deutsch (B1)</div>
+          <div class="skill-item">Kommunikation</div>
+          <div class="skill-item">Teamarbeit</div>
+          <div class="skill-item">Zuverlässigkeit</div>
+          <div class="skill-item">Kundenorientierung</div>
+          <div class="skill-item">Organisation</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Sprachen</div>
+      <div class="section-content">
+        <div class="languages">
+          <div class="language-item">
+            <strong>Deutsch</strong>
+            <div class="language-level">B1 - Mittelstufe</div>
+          </div>
+          <div class="language-item">
+            <strong>Englisch</strong>
+            <div class="language-level">Grundkenntnisse</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="qr-section">
+      <img src="../assets/qr-code.png" alt="QR Code zu LinkedIn">
+      <p>Scannen für LinkedIn-Profil</p>
+    </div>
+
+    <div class="footer">
+      <p>Erstellt am: 2026 | Parvaneh Jafari | Berlin, Deutschland</p>
+    </div>
+  </div>
+</body>
+</html>

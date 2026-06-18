@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lebenslauf Büro - Parvaneh Jafari</title>
+  <style>
+    @page { size: A4; margin: 20mm; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1a0533; line-height: 1.5; background: white; }
+    .container { max-width: 210mm; margin: 0 auto; padding: 15mm; }
+    .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 3px solid #7c3aed; }
+    .header-left h1 { font-size: 26px; color: #7c3aed; margin-bottom: 5px; }
+    .header-left .subtitle { font-size: 14px; color: #4a2c6e; font-weight: 600; }
+    .header-right { text-align: right; }
+    .header-right img { width: 70px; height: 70px; }
+    .contact-info { font-size: 11px; color: #666; margin-top: 5px; }
+    .section { margin-bottom: 18px; }
+    .section-title { font-size: 13px; font-weight: 700; color: #7c3aed; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #e0d4f5; }
+    .section-content { font-size: 12px; }
+    .job-item { margin-bottom: 12px; }
+    .job-title { font-weight: 600; color: #1a0533; font-size: 13px; }
+    .job-description { margin-left: 15px; margin-top: 4px; }
+    .job-description li { margin-bottom: 3px; font-size: 11px; }
+    .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+    .skill-item { background: #f3e8ff; padding: 5px 8px; border-radius: 3px; font-size: 11px; }
+    .languages { display: flex; gap: 20px; }
+    .language-item { text-align: center; }
+    .language-level { font-size: 10px; color: #666; }
+    .qr-section { text-align: center; margin-top: 20px; padding-top: 15px; border-top: 2px solid #e0d4f5; }
+    .qr-section img { width: 80px; height: 80px; }
+    .qr-section p { font-size: 10px; color: #666; margin-top: 3px; }
+    .highlight { background: #e0d4f5; padding: 8px 10px; border-radius: 4px; margin-bottom: 10px; font-size: 11px; }
+    .print-btn { position: fixed; bottom: 20px; right: 20px; background: #7c3aed; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 14px; }
+    @media print { .print-btn { display: none; } }
+  </style>
+</head>
+<body>
+  <button class="print-btn" onclick="window.print()">Drucken / PDF speichern</button>
+  
+  <div class="container">
+    <div class="header">
+      <div class="header-left">
+        <h1>Parvaneh Jafari</h1>
+        <div class="subtitle">Büro & Verwaltung</div>
+        <div style="margin-top: 8px; font-size: 11px; color: #666;">
+          <p>📍 Berlin, Deutschland | 🕐 Mo-Fr, 8:00-16:00 | 🚗 Führerschein B</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <img src="../assets/qr-code.png" alt="QR Code">
+        <div class="contact-info">
+          <p>LinkedIn / Website</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight">
+      <strong>Gesucht:</strong> Bürohilfe, Office Assistant, Empfangsmitarbeiterin, Rezeption, Back Office, Datenerfassung, Sachbearbeitung
+    </div>
+
+    <div class="section">
+      <div class="section-title">Profil</div>
+      <div class="section-content">
+        <p>Organisierte und zuverlässige Mitarbeiterin mit Erfahrung in administrativen Aufgaben. Gute MS Office Kenntnisse, Deutsch B1 und serviceorientierte Arbeitsweise. Suche eine Teilzeitstelle im Büro in Berlin.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Berufserfahrung</div>
+      <div class="section-content">
+        <div class="job-item">
+          <p class="job-title">Büroarbeit</p>
+          <ul class="job-description">
+            <li>Administrative und organisatorische Aufgaben</li>
+            <li>Dokumentenbearbeitung und -verwaltung</li>
+            <li>Terminplanung und Kalenderverwaltung</li>
+            <li>Kundenkommunikation (Telefon, E-Mail)</li>
+          </ul>
+        </div>
+        <div class="job-item">
+          <p class="job-title">Reiseleitung</p>
+          <ul class="job-description">
+            <li>Organisation und Planung</li>
+            <li>Kundenbetreuung und Kommunikation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Fähigkeiten</div>
+      <div class="section-content">
+        <div class="skills-grid">
+          <div class="skill-item">MS Office</div>
+          <div class="skill-item">Datenerfassung</div>
+          <div class="skill-item">Terminplanung</div>
+          <div class="skill-item">Organisation</div>
+          <div class="skill-item">Kommunikation</div>
+          <div class="skill-item">Zuverlässigkeit</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Qualifikationen</div>
+      <div class="section-content">
+        <div class="skills-grid">
+          <div class="skill-item">🎓 Deutsch B1</div>
+          <div class="skill-item">🚗 Führerschein B</div>
+          <div class="skill-item">💻 MS Office</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="qr-section">
+      <img src="../assets/qr-code.png" alt="QR Code">
+      <p>Scannen für LinkedIn-Profil</p>
+    </div>
+  </div>
+</body>
+</html>

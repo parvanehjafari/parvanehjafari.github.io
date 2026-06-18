@@ -274,39 +274,39 @@ permalink: /
 <h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Lebensläufe herunterladen</h2>
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0;">
-  <a href="{{ '/resumes/resume-einzelhandel.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+  <a href="{{ '/pdf/resume-einzelhandel.pdf' | relative_url }}" download style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
     <div style="font-size: 1.5rem;">🛒</div>
     <div style="font-weight: 600; font-size: 0.9rem;">Einzelhandel</div>
   </a>
-  <a href="{{ '/resumes/resume-buero.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+  <a href="{{ '/pdf/resume-buero.pdf' | relative_url }}" download style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
     <div style="font-size: 1.5rem;">💼</div>
     <div style="font-weight: 600; font-size: 0.9rem;">Büro</div>
   </a>
-  <a href="{{ '/resumes/resume-lager.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+  <a href="{{ '/pdf/resume-lager.pdf' | relative_url }}" download style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
     <div style="font-size: 1.5rem;">📦</div>
     <div style="font-weight: 600; font-size: 0.9rem;">Lager</div>
   </a>
-  <a href="{{ '/resumes/resume-service.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+  <a href="{{ '/pdf/resume-service.pdf' | relative_url }}" download style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
     <div style="font-size: 1.5rem;">🍽️</div>
     <div style="font-weight: 600; font-size: 0.9rem;">Service</div>
   </a>
-  <a href="{{ '/resumes/resume-kundenservice.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+  <a href="{{ '/pdf/resume-kundenservice.pdf' | relative_url }}" download style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
     <div style="font-size: 1.5rem;">📞</div>
     <div style="font-weight: 600; font-size: 0.9rem;">Kundenservice</div>
   </a>
-  <a href="{{ '/resumes/resume-bildung.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+  <a href="{{ '/pdf/resume-bildung.pdf' | relative_url }}" download style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
     <div style="font-size: 1.5rem;">👨‍👩‍👧</div>
     <div style="font-weight: 600; font-size: 0.9rem;">Bildung</div>
   </a>
-  <a href="{{ '/resumes/resume-fahrtdienste.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+  <a href="{{ '/pdf/resume-fahrtdienste.pdf' | relative_url }}" download style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
     <div style="font-size: 1.5rem;">🚗</div>
     <div style="font-weight: 600; font-size: 0.9rem;">Fahrtdienste</div>
   </a>
-  <a href="{{ '/resumes/resume-reinigung.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+  <a href="{{ '/pdf/resume-reinigung.pdf' | relative_url }}" download style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
     <div style="font-size: 1.5rem;">🧹</div>
     <div style="font-weight: 600; font-size: 0.9rem;">Reinigung</div>
   </a>
-  <a href="{{ '/resumes/resume-gesundheit.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+  <a href="{{ '/pdf/resume-gesundheit.pdf' | relative_url }}" download style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
     <div style="font-size: 1.5rem;">🏥</div>
     <div style="font-weight: 600; font-size: 0.9rem;">Gesundheit</div>
   </a>

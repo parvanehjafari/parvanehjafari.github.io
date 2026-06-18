@@ -18,47 +18,92 @@ permalink: /resumes/
 <div class="i18n" data-lang="de">
 
 <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 2rem;">
-  Hier finden Sie meine Lebensläufe, die auf verschiedene Berufsbereiche zugeschnitten sind. Jeder Lebenslauf kann als PDF heruntergeladen und ausgedruckt werden.
+  Hier finden Sie meine Lebensläufe, die auf verschiedene Berufsbereiche zugeschnitten sind. Jeder Lebenslauf kann als PDF heruntergeladen werden.
 </p>
 
-<div style="display: grid; gap: 1.5rem;">
+<div style="display: grid; gap: 1rem;">
 
-  <a href="{{ '/resumes/resume-einzelhandel.html' | relative_url }}" style="display: block; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; transition: transform 0.2s;">
-    <h3 style="margin: 0 0 0.5rem 0; color: #7c3aed;">🛒 Einzelhandel & Verkauf</h3>
-    <p style="margin: 0; font-size: 0.95rem; opacity: 0.8;">Verkäuferin, Kassiererin, Shop Assistant, Supermarkthilfe, Drogerie, Bäckerei</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; opacity: 0.6;">Klicken zum Öffnen → Drucken als PDF</p>
+  <a href="{{ '/pdf/resume-einzelhandel.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">🛒</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Einzelhandel & Verkauf</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Verkäuferin, Kassiererin, Shop Assistant, Supermarkthilfe</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">PDF herunterladen</div>
   </a>
 
-  <a href="{{ '/resumes/resume-buero.html' | relative_url }}" style="display: block; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
-    <h3 style="margin: 0 0 0.5rem 0; color: #7c3aed;">💼 Büro & Verwaltung</h3>
-    <p style="margin: 0; font-size: 0.95rem; opacity: 0.8;">Office Assistant, Empfang, Rezeption, Back Office, Datenerfassung</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; opacity: 0.6;">Klicken zum Öffnen → Drucken als PDF</p>
+  <a href="{{ '/pdf/resume-buero.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">💼</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Büro & Verwaltung</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Office Assistant, Empfang, Rezeption, Back Office</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">PDF herunterladen</div>
   </a>
 
-  <a href="{{ '/resumes/resume-lager.html' | relative_url }}" style="display: block; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
-    <h3 style="margin: 0 0 0.5rem 0; color: #7c3aed;">📦 Lager & Logistik</h3>
-    <p style="margin: 0; font-size: 0.95rem; opacity: 0.8;">Regalauffüllerin, Lagermitarbeiterin, Kommissioniererin, Versand</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; opacity: 0.6;">Klicken zum Öffnen → Drucken als PDF</p>
+  <a href="{{ '/pdf/resume-lager.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">📦</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Lager & Logistik</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Regalauffüllerin, Lagermitarbeiterin, Kommissioniererin</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">PDF herunterladen</div>
   </a>
 
-  <a href="{{ '/resumes/resume-service.html' | relative_url }}" style="display: block; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
-    <h3 style="margin: 0 0 0.5rem 0; color: #7c3aed;">🍽️ Service & Gastronomie</h3>
-    <p style="margin: 0; font-size: 0.95rem; opacity: 0.8;">Servicekraft, Frühstücksservice, Cafeteria, Kantinenhilfe, Küchenhilfe</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; opacity: 0.6;">Klicken zum Öffnen → Drucken als PDF</p>
+  <a href="{{ '/pdf/resume-service.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">🍽️</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Service & Gastronomie</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Servicekraft, Frühstücksservice, Cafeteria, Kantinenhilfe</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">PDF herunterladen</div>
   </a>
 
-</div>
+  <a href="{{ '/pdf/resume-kundenservice.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">📞</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Kundenservice & Support</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Kundenservice, Call Center, Telefonzentrale</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">PDF herunterladen</div>
+  </a>
 
-<br>
+  <a href="{{ '/pdf/resume-bildung.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">👨‍👩‍👧</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Bildung & Familie</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Schulsekretariat, Kita-Helferin, Betreuungskraft</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">PDF herunterladen</div>
+  </a>
 
-<div style="padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.05); margin-top: 2rem;">
-  <h4 style="margin: 0 0 0.5rem 0;">Anleitung zum Drucken:</h4>
-  <ol style="margin: 0; padding-left: 1.5rem; font-size: 0.95rem;">
-    <li style="margin-bottom: 0.5rem;">Klicken Sie auf den gewünschten Lebenslauf</li>
-    <li style="margin-bottom: 0.5rem;">Drücken Sie <strong>Strg + P</strong> (oder Cmd + P auf Mac)</li>
-    <li style="margin-bottom: 0.5rem;">Wählen Sie "Als PDF speichern"</li>
-    <li>Klicken Sie auf "Speichern"</li>
-  </ol>
+  <a href="{{ '/pdf/resume-fahrtdienste.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">🚗</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Fahrtdienste & Mobilität</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Fahrdienst, Shuttle Service, Kurier</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">PDF herunterladen</div>
+  </a>
+
+  <a href="{{ '/pdf/resume-reinigung.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">🧹</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Reinigung & Gebäude</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Reinigungskraft, Praxisreinigung, Housekeeping</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">PDF herunterladen</div>
+  </a>
+
+  <a href="{{ '/pdf/resume-gesundheit.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">🏥</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Gesundheit & Soziales</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Praxisassistenz, Patientenservice, Pflegehilfskraft</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">PDF herunterladen</div>
+  </a>
+
 </div>
 
 </div>
@@ -66,47 +111,92 @@ permalink: /resumes/
 <div class="i18n" data-lang="en">
 
 <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 2rem;">
-  Here you can find my resumes tailored to different job sectors. Each resume can be downloaded as a PDF and printed.
+  Here you can find my resumes tailored to different job sectors. Each resume can be downloaded as a PDF.
 </p>
 
-<div style="display: grid; gap: 1.5rem;">
+<div style="display: grid; gap: 1rem;">
 
-  <a href="{{ '/resumes/resume-einzelhandel.html' | relative_url }}" style="display: block; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
-    <h3 style="margin: 0 0 0.5rem 0; color: #7c3aed;">🛒 Retail & Sales</h3>
-    <p style="margin: 0; font-size: 0.95rem; opacity: 0.8;">Shop Assistant, Cashier, Retail Worker, Supermarket Assistant</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; opacity: 0.6;">Click to open → Print as PDF</p>
+  <a href="{{ '/pdf/resume-einzelhandel.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">🛒</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Retail & Sales</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Shop Assistant, Cashier, Retail Worker</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">Download PDF</div>
   </a>
 
-  <a href="{{ '/resumes/resume-buero.html' | relative_url }}" style="display: block; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
-    <h3 style="margin: 0 0 0.5rem 0; color: #7c3aed;">💼 Office & Administration</h3>
-    <p style="margin: 0; font-size: 0.95rem; opacity: 0.8;">Office Assistant, Receptionist, Back Office, Data Entry</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; opacity: 0.6;">Click to open → Print as PDF</p>
+  <a href="{{ '/pdf/resume-buero.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">💼</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Office & Administration</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Office Assistant, Receptionist, Back Office</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">Download PDF</div>
   </a>
 
-  <a href="{{ '/resumes/resume-lager.html' | relative_url }}" style="display: block; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
-    <h3 style="margin: 0 0 0.5rem 0; color: #7c3aed;">📦 Warehouse & Logistics</h3>
-    <p style="margin: 0; font-size: 0.95rem; opacity: 0.8;">Shelf Stacker, Warehouse Worker, Picker, Packer</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; opacity: 0.6;">Click to open → Print as PDF</p>
+  <a href="{{ '/pdf/resume-lager.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">📦</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Warehouse & Logistics</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Shelf Stacker, Warehouse Worker, Picker</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">Download PDF</div>
   </a>
 
-  <a href="{{ '/resumes/resume-service.html' | relative_url }}" style="display: block; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
-    <h3 style="margin: 0 0 0.5rem 0; color: #7c3aed;">🍽️ Service & Gastronomy</h3>
-    <p style="margin: 0; font-size: 0.95rem; opacity: 0.8;">Service Staff, Breakfast Service, Cafeteria, Kitchen Helper</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; opacity: 0.6;">Click to open → Print as PDF</p>
+  <a href="{{ '/pdf/resume-service.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">🍽️</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Service & Gastronomy</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Service Staff, Breakfast Service, Cafeteria</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">Download PDF</div>
   </a>
 
-</div>
+  <a href="{{ '/pdf/resume-kundenservice.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">📞</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Customer Service & Support</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Customer Service, Call Center, Switchboard</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">Download PDF</div>
+  </a>
 
-<br>
+  <a href="{{ '/pdf/resume-bildung.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">👨‍👩‍👧</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Education & Family</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">School Office, Daycare Helper, Caregiver</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">Download PDF</div>
+  </a>
 
-<div style="padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.05); margin-top: 2rem;">
-  <h4 style="margin: 0 0 0.5rem 0;">How to print:</h4>
-  <ol style="margin: 0; padding-left: 1.5rem; font-size: 0.95rem;">
-    <li style="margin-bottom: 0.5rem;">Click on the desired resume</li>
-    <li style="margin-bottom: 0.5rem;">Press <strong>Ctrl + P</strong> (or Cmd + P on Mac)</li>
-    <li style="margin-bottom: 0.5rem;">Select "Save as PDF"</li>
-    <li>Click "Save"</li>
-  </ol>
+  <a href="{{ '/pdf/resume-fahrtdienste.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">🚗</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Driving & Mobility</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Driving Service, Shuttle, Courier</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">Download PDF</div>
+  </a>
+
+  <a href="{{ '/pdf/resume-reinigung.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">🧹</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Cleaning & Facility</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Office Cleaner, Clinic Cleaning, Housekeeping</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">Download PDF</div>
+  </a>
+
+  <a href="{{ '/pdf/resume-gesundheit.pdf' | relative_url }}" download style="display: flex; align-items: center; gap: 1rem; padding: 1.25rem; border-radius: 12px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit;">
+    <div style="font-size: 2rem;">🏥</div>
+    <div style="flex: 1;">
+      <h3 style="margin: 0; font-size: 1.1rem; color: #7c3aed;">Health & Social</h3>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.7;">Practice Assistant, Patient Service, Care Helper</p>
+    </div>
+    <div style="background: #7c3aed; color: white; padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;">Download PDF</div>
+  </a>
+
 </div>
 
 </div>

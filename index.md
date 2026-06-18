@@ -231,6 +231,16 @@ permalink: /
       <div style="font-weight: 600; font-size: 1rem;">MS Office</div>
       <div style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.25rem;">Word, Excel, Outlook</div>
     </div>
+    <div style="text-align: center; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08);">
+      <div style="font-size: 2rem; margin-bottom: 0.5rem;">🇬🇧</div>
+      <div style="font-weight: 600; font-size: 1rem;">Englisch B1</div>
+      <div style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.25rem;">Mittelstufe</div>
+    </div>
+    <div style="text-align: center; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08);">
+      <div style="font-size: 2rem; margin-bottom: 0.5rem;">🇮🇷</div>
+      <div style="font-weight: 600; font-size: 1rem;">Persisch</div>
+      <div style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.25rem;">Muttersprache</div>
+    </div>
   </div>
 </div>
 
@@ -258,6 +268,51 @@ permalink: /
     </div>
   </div>
 </div>
+
+<br>
+
+<h2 style="font-size: 1.6rem; font-weight: 700; margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 2px solid rgba(124,58,237,0.3);">Lebensläufe herunterladen</h2>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <a href="{{ '/resumes/resume-einzelhandel.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+    <div style="font-size: 1.5rem;">🛒</div>
+    <div style="font-weight: 600; font-size: 0.9rem;">Einzelhandel</div>
+  </a>
+  <a href="{{ '/resumes/resume-buero.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+    <div style="font-size: 1.5rem;">💼</div>
+    <div style="font-weight: 600; font-size: 0.9rem;">Büro</div>
+  </a>
+  <a href="{{ '/resumes/resume-lager.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+    <div style="font-size: 1.5rem;">📦</div>
+    <div style="font-weight: 600; font-size: 0.9rem;">Lager</div>
+  </a>
+  <a href="{{ '/resumes/resume-service.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+    <div style="font-size: 1.5rem;">🍽️</div>
+    <div style="font-weight: 600; font-size: 0.9rem;">Service</div>
+  </a>
+  <a href="{{ '/resumes/resume-kundenservice.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+    <div style="font-size: 1.5rem;">📞</div>
+    <div style="font-weight: 600; font-size: 0.9rem;">Kundenservice</div>
+  </a>
+  <a href="{{ '/resumes/resume-bildung.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+    <div style="font-size: 1.5rem;">👨‍👩‍👧</div>
+    <div style="font-weight: 600; font-size: 0.9rem;">Bildung</div>
+  </a>
+  <a href="{{ '/resumes/resume-fahrtdienste.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+    <div style="font-size: 1.5rem;">🚗</div>
+    <div style="font-weight: 600; font-size: 0.9rem;">Fahrtdienste</div>
+  </a>
+  <a href="{{ '/resumes/resume-reinigung.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+    <div style="font-size: 1.5rem;">🧹</div>
+    <div style="font-weight: 600; font-size: 0.9rem;">Reinigung</div>
+  </a>
+  <a href="{{ '/resumes/resume-gesundheit.html' | relative_url }}" target="_blank" style="display: block; padding: 1rem; border-radius: 10px; background: rgba(124,58,237,0.08); text-decoration: none; color: inherit; text-align: center;">
+    <div style="font-size: 1.5rem;">🏥</div>
+    <div style="font-weight: 600; font-size: 0.9rem;">Gesundheit</div>
+  </a>
+</div>
+
+<p style="text-align: center; font-size: 0.9rem; opacity: 0.6;">Klicken → Strg+P → Als PDF speichern</p>
 
 <br>
 <br>
@@ -486,6 +541,16 @@ permalink: /
       <div style="font-size: 2rem; margin-bottom: 0.5rem;">💻</div>
       <div style="font-weight: 600; font-size: 1rem;">MS Office</div>
       <div style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.25rem;">Word, Excel, Outlook</div>
+    </div>
+    <div style="text-align: center; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08);">
+      <div style="font-size: 2rem; margin-bottom: 0.5rem;">🇬🇧</div>
+      <div style="font-weight: 600; font-size: 1rem;">English B1</div>
+      <div style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.25rem;">Intermediate</div>
+    </div>
+    <div style="text-align: center; padding: 1.5rem; border-radius: 12px; background: rgba(124,58,237,0.08);">
+      <div style="font-size: 2rem; margin-bottom: 0.5rem;">🇮🇷</div>
+      <div style="font-weight: 600; font-size: 1rem;">Persian</div>
+      <div style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.25rem;">Mother tongue</div>
     </div>
   </div>
 </div>
